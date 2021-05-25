@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+.next
+.vercel
+.env
+.env.*
+yarn-error.log
+src/pages/pl
+src/svgs/index.tsx
+*.db
+next-env.d.ts
