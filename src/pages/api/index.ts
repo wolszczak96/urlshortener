@@ -1,8 +1,5 @@
-import { md5 } from '@/server'
-import { PrismaClient } from '@prisma/client'
+import { db, md5 } from '@/server'
 import { NextApiRequest, NextApiResponse } from 'next'
-
-const db = new PrismaClient()
 
 export default async function handler(
   req: NextApiRequest,
